@@ -1,0 +1,42 @@
+body{padding-top: 5%;
+	 background-image: url(img/polygon-colors-05.jpg);
+	 background-size:inherit;}
+	
+	.myfcc-jumbo-h1{color: rgba(255,255,0,1.0);}
+	.myfcc-jumbo-h2{color: rgba(255,128,0,1.0);}
+	.myfcc-jumbo-p{color: rgba(255,255,255,1.0);}
+	.fcc-form{max-width: 330px;
+		   	  padding: 15px;
+		   	  margin: 0 auto;}
+					
+	.fcc-pannel{max-width: 340px;
+		 		/*background-image: url(img/polygon-colors.jpg);
+		   		background-size: contain;*/
+		   		background-color: rgba(000,000,000,0.60);
+				 -webkit-box-shadow: 4px 4px 4px 4px rgba(48, 50, 50, 0.48);
+				 -moz-box-shadow:    4px 4px 4px 4px rgba(48, 50, 50, 0.48);
+			 	box-shadow:    4px 4px 4px 4px rgba(48, 50, 50, 0.48);
+				border-radius: 10%;
+				}
+
+	.brand-logo{width: 136px; height: 136px;
+			margin: 0px auto 10px;
+			display: block;
+			border-radius: 2%;}
+
+	.fcc-pane-sm{background-color: rgba(0,0,0,0.5);
+				 color: rgba(255,255,255,1.0);
+				 vertical-align: middle; text-align: center;
+				 padding: 1%; padding-left: 8%;
+				 border-radius: 5%;}
+				 
+			     /*#brand{background-color: rgba(255,255,255,1.0);}*/
+			     
+	#fcc-jumbo-panne{background-color: rgba(000,000,000,0.80);
+				 	  -webkit-box-shadow: 4px 4px 4px 4px rgba(48, 50, 50, 0.48);
+				 	  -moz-box-shadow:    4px 4px 4px 4px rgba(48, 50, 50, 0.48);
+			 		  box-shadow:    4px 4px 4px 4px rgba(48, 50, 50, 0.48);
+			 		  text-align: justify;}
+			 		  
+	#activate-h1{color: rgba(255,255,0,1.0);}		 		  
+	#log-in-pane{padding-top: 10%;}
