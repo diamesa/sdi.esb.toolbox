@@ -59,6 +59,26 @@ import java.util.List;
 				return child_list;
 			}
 			
+			public List<List<WebElement>> build_form_map(WebElement container){
+				List<List<WebElement>> payload = new ArrayList<List<WebElement>>();
+				List<WebElement> form_nodes = container.findElements(By.tagName("form"));
+				if(form_nodes.isEmpty() ){
+						//no hay formulario
+					}
+				else if(form_nodes.size() > 1){
+					for (WebElement form : form_nodes) {
+						List<WebElement> form_map = get_all_child_elements(form);
+						payload.add(form_map);
+						}
+				}
+				else{
+					WebElement form = form_nodes.get(0);
+					List<WebElement> form_map = get_all_child_elements(form);
+					payload.add(form_map);
+				}
+				payload.add(form_nodes);
+				return payload;
+			}
 			
 		private static WebDriver driver = null;
 		
