@@ -1,0 +1,8 @@
+package sdi.include;
+
+public class BusinessAccountRegistry {
+	
+	String BusinessAccountName= null;
+	String BusinessAccountNumber= null;
+
+}

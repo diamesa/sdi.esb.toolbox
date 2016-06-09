@@ -1,0 +1,32 @@
+package sdi.include;
+
+public class BusinessAccountRegistry {
+	
+	
+	public BusinessAccountRegistry(String[] args){
+		if(args.length < 8){
+			System.out.println("Usage: to create a  BAR instance ypu must supply a Array containing 8 Strings");
+		}
+		else{
+				this.BusinessAccountName= args[0];
+				this.BusinessAccountNumber= args[1];
+				this.CIM_id=                args[2];
+				this.Address=args[3];
+				this.City= args[4];
+				this.State= args[5];
+				this.Country= args[6];
+				this.ZIP= args[7];
+		}
+	}
+//Class Members
+	String BusinessAccountName= null;
+	String BusinessAccountNumber= null;
+	String CIM_id= null;
+	String Address= null;
+	String City= null;
+	String State= null;
+	String Country= null;
+	String ZIP= null;
+	
+
+}

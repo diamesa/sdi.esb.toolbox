@@ -1,0 +1,14 @@
+package sdi.accountmanagement;
+
+public class CSVHandler {
+
+	public CSVHandler() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public String[] GetNexRecord(){
+		String[] result = new String[5];
+		
+		return result;
+	}
+}

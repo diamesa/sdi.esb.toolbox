@@ -1,0 +1,25 @@
+package sdi.include;
+
+public class UserAccountRegistry {
+	
+	public UserAccountRegistry(String[] args){
+		if (args.length < 5) { System.out.println("Parameters missing");} 
+		else {
+					this.BusinessAccountName= args[0];
+					this.BusinessAccountNumber= args[1];
+					this.FName= args[2];
+					this.LName= args[3];
+					this.LogInID= args[4];
+					this.eMail= args[5];
+			 }
+	}
+
+	
+	//Class Members
+		String BusinessAccountName= null;
+		String BusinessAccountNumber= null;
+		String FName= null;
+		String LName= null;
+		String LogInID= null;
+		String eMail= null;
+}

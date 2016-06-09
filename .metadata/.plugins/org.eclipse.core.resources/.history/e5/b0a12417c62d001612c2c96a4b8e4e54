@@ -1,0 +1,14 @@
+package sdi.model;
+
+	import java.sql.PreparedStatement;
+	import sdi.include.BusinessAccountRegistry;
+
+@SuppressWarnings("unused")
+public class UserAccountModel {
+
+public boolean RegisterUserAccount(UserAccountRegistry uar){
+	return true;}
+
+public class BusinessAccountModel {
+
+}

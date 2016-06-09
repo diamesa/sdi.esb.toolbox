@@ -1,0 +1,16 @@
+package sdi.model;
+
+	import java.sql.PreparedStatement;
+	import sdi.include.BusinessAccountRegistry;
+
+@SuppressWarnings("unused")
+public class BusinessAccountModel {
+
+	public boolean RegisterBusinessAccount(BusinessAccountRegistry uar){
+		
+		PreparedStatement pst= null; //MySQL Query that calls Stored Procedure "register_bussiness_account"
+		boolean flag= false; //to signal the success of the operation 
+		return true;
+	
+		}
+}
