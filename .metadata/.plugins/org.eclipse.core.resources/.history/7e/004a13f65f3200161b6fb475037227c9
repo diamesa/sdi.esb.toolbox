@@ -1,0 +1,44 @@
+package sdi.model;
+
+	import java.sql.PreparedStatement;
+	import sdi.include.BusinessAccountRegistry;
+
+//@SuppressWarnings("unused")
+public class BusinessAccountModel extends ConnectionModel {
+
+	public BusinessAccountModel(){}
+	
+	public boolean RegisterBusinessAccount(BusinessAccountRegistry uar){
+		
+		PreparedStatement pst= null; //MySQL Query that calls Stored Procedure "register_bussiness_account"
+		boolean flag= false; //to signal the success of the operation 
+		
+		try {	//Build MySQL query
+			String sql= "call register_bussiness_account(?,?,?,?,?,?,?,?)";
+			pst= getConnection().prepareStatement(sql);
+				pst.setString(1, uar.getBusinessAccountName());
+				pst.setString(2, uar.getBusinessAccountNumber());
+				pst.setString(3, uar.getCIM_id());
+				pst.setString(4, uar.getAddress());
+				pst.setString(5, uar.getCity());
+				pst.setString(6, uar.getState());
+				pst.setString(7, uar.getCountry());
+				pst.setString(8, uar.getZIP());
+				
+				//Execute and signal success
+				if (pst.executeUpdate() == 1) { flag= true;	}
+					
+		} 
+	catch (Exception e) {System.err.print(e.getMessage());}
+	finally { //Close connection
+				try {
+						if (getConnection() != null) {getConnection().close();}
+						if (pst != null){pst.close();}
+					} 
+				catch (Exception e2) {}
+			}
+	//Report success
+		return flag;
+	
+		}
+}

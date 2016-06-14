@@ -1,0 +1,247 @@
+package sdi.accountmanagement;
+
+	
+	import java.util.regex.Pattern;
+    import java.util.List;
+    import java.util.concurrent.TimeUnit;
+	import org.testng.annotations.*;
+
+    import sdi.include.BusinessAccountRegistry;
+    import sdi.include.UserAccountRegistry;
+
+    import static org.testng.Assert.*;
+	import org.openqa.selenium.*;
+	import org.openqa.selenium.firefox.FirefoxDriver;
+	import org.openqa.selenium.chrome.*;
+	import org.openqa.selenium.support.ui.ExpectedCondition;
+	import org.openqa.selenium.support.ui.Select;
+	import org.openqa.selenium.support.ui.WebDriverWait;
+
+
+@SuppressWarnings("unused")
+public class BAValidator {
+	
+	public BAValidator(){
+		super();
+	}
+
+	public static void main(String[] args){
+		 	driver = new FirefoxDriver();
+		   	baseUrl = "https://erpm.intel.com/";
+		   	driver.manage().window().maximize();
+		   	//baseUrl = "https://intelone.my.salesforce.com/";
+		    driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+		    String[] argumentos= new String[]{"ncarrill", "Intel-0808", "10189507" };
+		    ValidateBussinesAccount(argumentos);
+	}
+	
+
+	  /*public void setUp() throws Exception {
+	    driver = new FirefoxDriver();
+	    baseUrl = "https://erpm.intel.com/";
+	    driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+	  
+	  }*/
+
+	 public static void ValidateBussinesAccount(String[] args){
+		 	
+		 if (args.length < 2) {	
+			 		System.out.println("parameters missing");	
+		 			} 
+		 else {
+			 	
+				//Go to ERPM
+				 driver.get(baseUrl + "/EOT");
+			    //Select user text field and input username
+				 driver.findElement(By.id("UserID")).sendKeys(args[0]);
+				 driver.findElement(By.id("Password")).sendKeys(args[1]);
+				 driver.findElement(By.cssSelector("input.btn.btn-primary")).click();
+				//Wait for eRPM page to load
+				 (new  WebDriverWait(driver, 90)).until(new ExpectedCondition<Boolean>(){
+					 public Boolean apply(WebDriver d){
+						 return d.getCurrentUrl().contains("https://erpm.intel.com/EOT"); }});
+				 //Find and click "BusinessAccount" link
+				 WebElement html = driver.findElement(By.tagName("html"));
+				   	html.sendKeys(Keys.chord(Keys.CONTROL, Keys.SUBTRACT));
+				   	html.sendKeys(Keys.chord(Keys.CONTROL, Keys.SUBTRACT));
+				  driver.findElement(By.id("BusinessAccount")).click();	
+				  try {Thread.sleep(30);}    
+					catch (InterruptedException e) {e.printStackTrace();}
+											
+					  (new  WebDriverWait(driver, 90)).until(new ExpectedCondition<Boolean>(){
+							 public Boolean apply(WebDriver d){
+								 List<WebElement> welist = d.findElements(By.id("searchBusinessAccountMenu"));
+								 if(welist.size()>0){
+									 for (WebElement welement : welist) {
+										if(welement.getAttribute("title").equals("Search")){return true;}
+										else{
+												try {driver.wait(10);}    
+												catch (InterruptedException e) {e.printStackTrace();}
+										    }
+									}
+								 }
+								 return false; }});
+
+						try {Thread.sleep(1000);}    
+						catch (InterruptedException e) {e.printStackTrace();}
+				 //Find and click "SearchBusinessAccountMenu"
+				  driver.findElement(By.id("searchBusinessAccountMenu")).click();
+				  	(new WebDriverWait(driver, 10)).until(new ExpectedCondition<Boolean>(){
+				  		public Boolean apply(WebDriver d){
+				  			List<WebElement> welist= d.findElements(By.id("SearchTitle"));
+				  				if(welist.size()>0){return true;}
+										else{
+												 try {driver.wait(1000);} 
+												 catch (InterruptedException e) {e.printStackTrace();}
+											}
+				  				return false;}});
+				  
+				    new Select(driver.findElement(By.id("ddlSearchCriteria1"))).selectByVisibleText("Account No.");
+				    driver.findElement(By.id("BasicSearchValue1")).clear();
+				    driver.findElement(By.id("BasicSearchValue1")).sendKeys(args[2]);
+				    driver.findElement(By.id("btnSearch")).click();
+				    (new WebDriverWait(driver, 10)).until(new ExpectedCondition<Boolean>(){
+				  		public Boolean apply(WebDriver d){
+				  			List<WebElement> welist= d.findElements(By.tagName("table"));
+				  				if(welist.size()>0){
+				  					for (WebElement welement : welist) {
+										if(welement.getAttribute("id").equalsIgnoreCase("tblSearchResultHead")){return true;}
+										else{
+												 try {Thread.sleep(1000);} 
+												 catch (InterruptedException e) {e.printStackTrace();}
+											}
+									}
+				  				}
+				  		return false;}});
+				    
+				    (new WebDriverWait(driver, 10)).until(new ExpectedCondition<Boolean>(){
+				  		public Boolean apply(WebDriver d){
+				  			List<WebElement> welist= d.findElements(By.cssSelector("div.hyperlinkProvider"));
+				  				if(welist.size()>0){
+				  					WebElement element= welist.get(0);
+				  						element.click();
+				  						return true;
+				  					}
+				  				else{try {
+				  							Thread.sleep(1000);
+								}    catch (InterruptedException e) {e.printStackTrace();}}
+				  		return false;}});
+				    
+				    try {Thread.sleep(3000);}   
+				    catch (InterruptedException e) {e.printStackTrace();}
+				   
+				    (new WebDriverWait(driver, 10)).until(new ExpectedCondition<Boolean>(){
+				  		public Boolean apply(WebDriver d){
+				  			List<WebElement> welist= d.findElements(By.tagName("span"));
+				  				if(welist.size()>0){
+					  					for (WebElement we : welist) {
+											if(we.getAttribute("id").equalsIgnoreCase("spnAccountName")){
+												return true;}
+										}
+				  					}
+				  				else{try {
+				  							Thread.sleep(1000);
+								}    catch (InterruptedException e) {e.printStackTrace();}}
+				  		return false;}});
+				    
+				    WebElement addressbtn= driver.findElement(By.id("AddressBasic_collapse"));
+				    addressbtn.click();
+				    
+				    try {Thread.sleep(1000);}
+				    catch (InterruptedException e) {e.printStackTrace();}
+				    
+				    CreateBusinessAccountRecord();
+				    
+		 		}
+		
+	 }
+	 
+	 public static void CreateBusinessAccountRecord(){
+		 try {Thread.sleep(3000);}
+		    catch (InterruptedException e) {e.printStackTrace();}
+		 String banm= driver.findElement(By.id("spnAccountName")).getText();
+		 String ban = driver.findElement(By.id("spnAccountNbr")).getText();
+		 String cimid= driver.findElement(By.id("spnCIMId")).getText();
+		 
+		 List<WebElement> tablerows = driver.findElements(By.id("trAddress"));
+		 System.out.println("There are "+tablerows.size()+" elements in the tables List");
+		 	int index = 0;
+		 	for (WebElement row : tablerows) {
+			 		
+		 			System.out.println("row: "+row.getTagName()+row.getSize());
+		 			List<WebElement> cells= row.findElements(By.tagName("td"));
+		 				for (WebElement cell : cells) {
+		 					System.out.println("I'm "+cell.getTagName()+" my text is: "+cell.getText());
+		 						if (cell.getText().equalsIgnoreCase("Yes")) {
+									String primary_address= row.getText();
+									System.out.println("I'm the primary address "+primary_address);
+								}
+						}
+		 			
+				}
+		 		
+		 
+	 }
+	 public static void FindPrimaryAddress(){
+		 String[] primary_address= new String[5];
+		 List<WebElement> tablerows = driver.findElements(By.id("trAddress"));
+		 System.out.println("There are "+tablerows.size()+" elements in the tables List");
+		 	for (WebElement webElement : tablerows) {
+		 		
+				System.out.println(webElement.getTagName()+" = "+ webElement.getText());
+			}
+	 }
+
+	  public void tearDown() throws Exception {
+	    driver.quit();
+	    String verificationErrorString = verificationErrors.toString();
+	    if (!"".equals(verificationErrorString)) {
+	      fail(verificationErrorString);
+	    }
+	  }
+
+
+
+	  private boolean isElementPresent(By by) {
+	    try {
+	      driver.findElement(by);
+	      return true;
+	    } catch (NoSuchElementException e) {
+	      return false;
+	    }
+	  }
+
+	  private boolean isAlertPresent() {
+	    try {
+	      driver.switchTo().alert();
+	      return true;
+	    } catch (NoAlertPresentException e) {
+	      return false;
+	    }
+	  }
+
+	  private String closeAlertAndGetItsText() {
+	    try {
+	      Alert alert = driver.switchTo().alert();
+	      String alertText = alert.getText();
+	      if (acceptNextAlert) {
+	        alert.accept();
+	      } else {
+	        alert.dismiss();
+	      }
+	      return alertText;
+	    } finally {
+	      acceptNextAlert = true;
+	    }
+	  }
+
+
+	  
+	  private static WebDriver driver;
+	  private static String baseUrl;
+	  private boolean acceptNextAlert = true;
+	  private StringBuffer verificationErrors = new StringBuffer();
+	  private BusinessAccountRegistry bar= null;
+
+	  
+}

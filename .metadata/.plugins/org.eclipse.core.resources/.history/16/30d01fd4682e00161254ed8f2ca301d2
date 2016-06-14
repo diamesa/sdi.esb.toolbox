@@ -1,0 +1,27 @@
+package sdi.model;
+
+	import java.sql.PreparedStatement;
+	import sdi.include.UserAccountRegistry;
+
+@SuppressWarnings("unused")
+public class UserAccountModel extends ConnectionModel{
+	
+	public UserAccountModel(){}
+	
+	public boolean RegisterUserAccount(UserAccountRegistry uar){
+		
+		PreparedStatement pst= null; //MySQL Query that calls Stored Procedure "register_bussiness_account"
+		boolean flag= false; //to signal the success of the operation 
+		
+		try {
+				String sql= "call register_user_account(?, ?, ?, ?, ?, ?)";
+				pst= getConnection().prepareStatement(sql);
+				
+				pst.setString(1,  uar.getBusinessAccountName());
+			} 
+		catch (Exception e) {}
+		finally{}
+		
+		return flag;}
+	
+}

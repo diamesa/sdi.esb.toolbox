@@ -5,9 +5,10 @@
 <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.ExpectedCondition"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.Select"/>
 <fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.By.ByTagName"/>
 <fullyQualifiedTypeName name="sdi.include.BusinessAccountRegistry"/>
 <fullyQualifiedTypeName name="sdi.model.BusinessAccountModel"/>
 <fullyQualifiedTypeName name="sdi.include.UserAccountRegistry"/>
 <fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.By.ByTagName"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,18 @@
+package sdi.controller;
+
+
+	import sdi.include.BusinessAccountRegistry;
+	import sdi.model.BusinessAccountModel;
+
+
+public class BusinessAccountController {
+	
+
+	public boolean RegisterUserAccount(BusinessAccountRegistry ua){
+		BusinessAccountModel modelo= new BusinessAccountModel();
+		return modelo.RegisterBusinessAccount(ua);
+		}
+
+}
+
+
