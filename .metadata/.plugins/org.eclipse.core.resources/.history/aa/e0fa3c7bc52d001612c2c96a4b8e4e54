@@ -1,8 +1,0 @@
-package sdi.model;
-
-	import java.sql.PreparedStatement;
-	import sdi.include.UserAccountRegistry;
-
-public class UserAccountModel {
-
-}

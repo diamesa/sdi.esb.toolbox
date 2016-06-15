@@ -1138,3 +1138,93 @@
 2016-06-14 17:31:12,177 [Worker-248] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DellVostro\Desktop\WorkSpace\Selenium\Selenium\WebAnalizer\src\main\resources
 2016-06-14 17:31:12,182 [Worker-248] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2016-06-14 17:31:12,189 [Worker-248] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DellVostro\Desktop\WorkSpace\Selenium\Selenium\WebAnalizer\src\test\resources
+2016-06-15 13:07:19,441 [Worker-319] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-15 13:07:19,548 [Worker-319] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DellVostro\Desktop\WorkSpace\Selenium\Selenium\WebAnalizer\src\main\resources
+2016-06-15 13:07:19,554 [Worker-319] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-15 13:07:19,617 [Worker-319] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DellVostro\Desktop\WorkSpace\Selenium\Selenium\WebAnalizer\src\test\resources
+2016-06-15 13:08:46,146 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is out-of-date. Remote download required.
+2016-06-15 13:09:04,684 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-15 13:09:04,793 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DellVostro\Desktop\WorkSpace\Selenium\Selenium\WebAnalizer\src\main\resources
+2016-06-15 13:09:04,797 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-15 13:09:04,806 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DellVostro\Desktop\WorkSpace\Selenium\Selenium\WebAnalizer\src\test\resources
+2016-06-15 13:16:41,748 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-15 13:16:41,790 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DellVostro\Desktop\WorkSpace\Selenium\Selenium\WebAnalizer\src\main\resources
+2016-06-15 13:16:41,791 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-15 13:16:41,795 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DellVostro\Desktop\WorkSpace\Selenium\Selenium\WebAnalizer\src\test\resources
+2016-06-15 13:17:53,672 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-15 13:17:53,683 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DellVostro\Desktop\WorkSpace\Selenium\Selenium\WebAnalizer\src\main\resources
+2016-06-15 13:17:53,685 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-15 13:17:53,690 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DellVostro\Desktop\WorkSpace\Selenium\Selenium\WebAnalizer\src\test\resources
+2016-06-15 13:17:57,829 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-15 13:17:57,837 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DellVostro\Desktop\WorkSpace\Selenium\Selenium\WebAnalizer\src\main\resources
+2016-06-15 13:17:57,839 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-15 13:17:57,865 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DellVostro\Desktop\WorkSpace\Selenium\Selenium\WebAnalizer\src\test\resources
+2016-06-15 13:21:30,556 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-15 13:21:30,570 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DellVostro\Desktop\WorkSpace\Selenium\Selenium\WebAnalizer\src\main\resources
+2016-06-15 13:21:30,572 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-15 13:21:30,587 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DellVostro\Desktop\WorkSpace\Selenium\Selenium\WebAnalizer\src\test\resources
+2016-06-15 13:40:08,995 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-15 13:40:09,070 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DellVostro\Desktop\WorkSpace\Selenium\Selenium\WebAnalizer\src\main\resources
+2016-06-15 13:40:09,109 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-15 13:40:09,117 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DellVostro\Desktop\WorkSpace\Selenium\Selenium\WebAnalizer\src\test\resources
+2016-06-15 13:41:21,474 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-15 13:41:21,479 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DellVostro\Desktop\WorkSpace\Selenium\Selenium\WebAnalizer\src\main\resources
+2016-06-15 13:41:21,480 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-15 13:41:21,488 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DellVostro\Desktop\WorkSpace\Selenium\Selenium\WebAnalizer\src\test\resources
+2016-06-15 15:35:11,190 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-15 15:35:11,260 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DellVostro\Desktop\WorkSpace\Selenium\Selenium\WebAnalizer\src\main\resources
+2016-06-15 15:35:11,394 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-15 15:35:11,405 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DellVostro\Desktop\WorkSpace\Selenium\Selenium\WebAnalizer\src\test\resources
+2016-06-15 15:40:37,608 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-15 15:40:37,740 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DellVostro\Desktop\WorkSpace\Selenium\Selenium\WebAnalizer\src\main\resources
+2016-06-15 15:40:37,749 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-15 15:40:37,770 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DellVostro\Desktop\WorkSpace\Selenium\Selenium\WebAnalizer\src\test\resources
+2016-06-15 15:43:53,460 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-15 15:43:53,471 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DellVostro\Desktop\WorkSpace\Selenium\Selenium\WebAnalizer\src\main\resources
+2016-06-15 15:43:53,475 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-15 15:43:53,481 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DellVostro\Desktop\WorkSpace\Selenium\Selenium\WebAnalizer\src\test\resources
+2016-06-15 15:44:11,219 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is not out-of-date. No remote download required.
+2016-06-15 15:45:42,646 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-15 15:45:42,661 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DellVostro\Desktop\WorkSpace\Selenium\Selenium\WebAnalizer\src\main\resources
+2016-06-15 15:45:42,662 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-15 15:45:42,670 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DellVostro\Desktop\WorkSpace\Selenium\Selenium\WebAnalizer\src\test\resources
+2016-06-15 15:48:11,721 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-15 15:48:11,721 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DellVostro\Desktop\WorkSpace\Selenium\Selenium\WebAnalizer\src\main\resources
+2016-06-15 15:48:11,737 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-15 15:48:11,737 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DellVostro\Desktop\WorkSpace\Selenium\Selenium\WebAnalizer\src\test\resources
+2016-06-15 15:48:59,464 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-15 15:48:59,479 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DellVostro\Desktop\WorkSpace\Selenium\Selenium\WebAnalizer\src\main\resources
+2016-06-15 15:48:59,479 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-15 15:48:59,479 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DellVostro\Desktop\WorkSpace\Selenium\Selenium\WebAnalizer\src\test\resources
+2016-06-15 16:17:33,336 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-15 16:17:33,377 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DellVostro\Desktop\WorkSpace\Selenium\Selenium\WebAnalizer\src\main\resources
+2016-06-15 16:17:33,378 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-15 16:17:33,386 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DellVostro\Desktop\WorkSpace\Selenium\Selenium\WebAnalizer\src\test\resources
+2016-06-15 16:17:39,399 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-15 16:17:39,407 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DellVostro\Desktop\WorkSpace\Selenium\Selenium\WebAnalizer\src\main\resources
+2016-06-15 16:17:39,413 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-15 16:17:39,422 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DellVostro\Desktop\WorkSpace\Selenium\Selenium\WebAnalizer\src\test\resources
+2016-06-15 16:18:10,174 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-15 16:18:10,179 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DellVostro\Desktop\WorkSpace\Selenium\Selenium\WebAnalizer\src\main\resources
+2016-06-15 16:18:10,180 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-15 16:18:10,192 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DellVostro\Desktop\WorkSpace\Selenium\Selenium\WebAnalizer\src\test\resources
+2016-06-15 16:21:17,425 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-15 16:21:17,450 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DellVostro\Desktop\WorkSpace\Selenium\Selenium\WebAnalizer\src\main\resources
+2016-06-15 16:21:17,455 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-15 16:21:17,462 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DellVostro\Desktop\WorkSpace\Selenium\Selenium\WebAnalizer\src\test\resources
+2016-06-15 16:27:32,810 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-15 16:27:32,843 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DellVostro\Desktop\WorkSpace\Selenium\Selenium\WebAnalizer\src\main\resources
+2016-06-15 16:27:32,843 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-15 16:27:32,858 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DellVostro\Desktop\WorkSpace\Selenium\Selenium\WebAnalizer\src\test\resources
+2016-06-15 16:49:01,296 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-15 16:49:01,344 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DellVostro\Desktop\WorkSpace\Selenium\Selenium\WebAnalizer\src\main\resources
+2016-06-15 16:49:01,360 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-15 16:49:01,391 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DellVostro\Desktop\WorkSpace\Selenium\Selenium\WebAnalizer\src\test\resources
+2016-06-15 16:57:37,736 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-15 16:57:37,752 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DellVostro\Desktop\WorkSpace\Selenium\Selenium\WebAnalizer\src\main\resources
+2016-06-15 16:57:37,752 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-15 16:57:37,752 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DellVostro\Desktop\WorkSpace\Selenium\Selenium\WebAnalizer\src\test\resources
+2016-06-15 17:19:47,445 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-15 17:19:47,445 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DellVostro\Desktop\WorkSpace\Selenium\Selenium\WebAnalizer\src\main\resources
+2016-06-15 17:19:47,460 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-15 17:19:47,460 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DellVostro\Desktop\WorkSpace\Selenium\Selenium\WebAnalizer\src\test\resources

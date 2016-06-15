@@ -1,0 +1,21 @@
+package sdi.accountmanagement;
+
+	import sdi.*;
+import sdi.controller.BusinessAccountController;
+import sdi.include.BusinessAccountRegistry;
+
+
+@SuppressWarnings("unused")
+public class Sqltest {
+	
+	public void main(){
+		
+		String[] data= new String[]{"a", "w", "v", "2", "t", "xx", "yy", "xy"};
+		BusinessAccountRegistry bar= new BusinessAccountRegistry(data);
+		 if (BusinessAccountController.RegisterBusinessAccount(bar)) {
+		     System.out.println("Success registering Bussiness Account on Data Base");
+	 	}
+		 else{System.out.println("Error");}
+	}
+
+}
